@@ -9,9 +9,6 @@ fn main() {
 
     println!("{:?}", my_iterator.next());
     println!("{:?}", my_iterator);
-    
-    println!("{:?}", my_iterator.next());
-    println!("{:?}", my_iterator);
 
     println!("{:?}", my_iterator.next());
     println!("{:?}", my_iterator);
@@ -19,6 +16,8 @@ fn main() {
     println!("{:?}", my_iterator.next());
     println!("{:?}", my_iterator);
 
+    println!("{:?}", my_iterator.next());
+    println!("{:?}", my_iterator);
 
     let mut my_hasmap = HashMap::new();
     my_hasmap.insert("CBS", 2);
@@ -28,4 +27,21 @@ fn main() {
     for hash in hashmap_iter {
         println!("{:?}", hash);
     }
+
+    let numbers = vec![4, 8, 15, 16];
+    let my_iterator = numbers.iter();
+
+    for number in my_iterator {
+        println!("{number}");
+    }
+
+    println!("{numbers:?}");
+
+    let cities = vec![String::from("Phoenix"), String::from("Dallas")];
+
+    for city in cities.iter() {
+        println!("{city}");
+    }
+
+    println!("{cities:?}");
 }
