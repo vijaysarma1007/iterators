@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-fn main(){
+fn main() {
     let mut todos = HashMap::new();
     todos.insert("Pick up groceries", false);
     todos.insert("Studt rust", true);
@@ -11,6 +11,4 @@ fn main(){
     }
 
     println!("{todos:?}");
-
 }
-

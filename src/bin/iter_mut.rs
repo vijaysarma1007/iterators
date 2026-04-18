@@ -13,11 +13,10 @@ fn main() {
 
     println!("{flavors:?}");
 
+    let mut school_grades = [85, 90, 92, 75];
 
-    let mut school_grades = [85,90,92, 75];
-    
     for grade in &mut school_grades {
-        *grade -=2;
+        *grade -= 2;
     }
 
     println!("{school_grades:?}");
