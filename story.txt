@@ -1,0 +1,7 @@
+chapter 1
+-------
+
+once upon a time,
+in a land far away,
+there lived a rust developer
+
